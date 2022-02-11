@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Tabla</title>
+</head>
+<body>
+    <div class="header">
+
+        <h1>PanaSoft</h1>
+        
+    </div>
+    <DIV class="nav">
+        <UL>
+            <LI><a href="index.html">Registration Form</a></LI>
+            <li><a href="index2.html">Data Base</a></li>
+        </UL>
+    </DIV>
+ 
+    <div class="reg-form">
+        <h2>Registration</h2>
+        <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Juan Jose" id="name" required><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Rodriguez mateo" required><br>
+        <label for="identificationCard">identification card:</label>
+        <input type="text" id="identificationCard" placeholder="00100000000" required><br>
+        <label for="Email">E-mail:</label>
+        <input type="email" id="email" placeholder="Example@gmail.com" required><br>
+        <button id="save" onclick="saveDate()">Save</button>
+    </form>
+
+    </div>
+    
+
+</body>
+<script src="script.js"></script>
+</html>

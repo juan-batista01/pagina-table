@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Tabla</title>
+</head>
+<body>
+    <div class="header">
+
+        <h1>PanaSoft</h1>
+        
+    </div>
+    <DIV class="nav">
+        <UL>
+            <LI><a href="index.html">Registration Form</a></LI>
+            <li><a href="index2.html">Data Base</a></li>
+        </UL>
+    </DIV>
+ 
+    <div class="table">
+        <button onclick="deleteFile()" class="buttonDelete">Delete</button>
+
+        <table border="1">
+
+            <thead>
+                <th>
+
+                    <input type="checkbox" name="check" class="check" onclick="active()">
+                </th>
+                <th>Name</th>
+                <th>last Name</th>
+                <th>identification Card</th>
+                <th>E-mail</th>
+            </thead>
+            <tbody id="dataContainer"></tbody>
+
+        </table>
+
+
+    </div>
+    
+
+</body>
+<script src="script2.js"></script>
+</html>

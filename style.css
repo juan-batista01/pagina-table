@@ -1,0 +1,179 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header  {
+    background-color: darkgray;
+    padding: 35px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #04AA6D;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+
+    background-color: #5ccb5f;
+
+}
+
+input[type = text] {
+
+    height: 25px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+h2 {
+
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.reg-form {
+
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+input[type = email]{
+
+    height: 25px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+#name {
+    margin-left: 150px;
+}
+
+#lastName {
+    margin-left: 120px;
+}
+
+#identificationCard {
+
+    margin-left: 67px;
+}
+
+#email {
+
+    margin-left: 150px;
+}
+
+label {
+    margin-left: 30px;
+}
+
+#save {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+#save:hover {background-color: #3e8e41}
+
+#save:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .table {
+
+    margin-top: 50px;
+  }
+
+
+.check  {
+
+    height: 17px;
+    width: 17px;
+  }
+
+  .buttonDelete {
+      margin-bottom: 30px;
+      margin-right: 50px;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 45px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      float: right;
+
+  }
+
+  .buttonDelete:hover {background-color: #3e8e41}
+
+
+  .buttonDelete:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
